@@ -62,6 +62,7 @@
     defined(__sparc__) || defined(__sparc) || defined(__s390__) || \
     defined(__SH4__) || defined(__alpha__) || \
     defined(_MIPS_ARCH_MIPS32R2) || \
+    defined(__EMSCRIPTEN__) || \
     defined(__riscv) || \
 	defined(__AARCH64EL__) || \
     defined(nios2) || defined(__nios2) || defined(__nios2__)
